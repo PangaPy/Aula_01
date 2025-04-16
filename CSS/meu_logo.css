@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto' ;
+}
+.cabecalho {
+    background-color: rgb(7, 131, 79);
+    padding: 10px;
+    width: 940px;
+}
+.caixa {
+    width: 850px;
+    position: relative;
+    margin: auto;
+}
+.logo {
+    padding-left: 5px;
+}
+.hmenu {position: absolute;
+    top: 70px;
+    right: 0;
+}
+.hmenu ul li  {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.hmenu ul li a {
+    color: rgb(0, 238, 186);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.hmenu ul li a :hover {
+    color: rgb(1, 71, 71);
+    border-bottom: 1px solid red ;
+}
+body {
+    background-color: rgb(252, 252, 252);
+}
+.logos {
+    text-align: left; 
+    font-size: 20px;
+    color: blue;
+}
+.texto{
+    color: rgb(5, 0, 0);
+    text-align: left;
+}
+.titulo{
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+}
+.Curiosidades {
+    color: rgb(0, 0, 0);
+    text-align: left
+    ;
+}
+.conteudo-principal {
+    padding: 920px;
+} 
